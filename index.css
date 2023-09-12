@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #12264d;
+}
+
+.loginimg img{
+    position: absolute;
+    top:11%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.loginkakuimg img{
+    height: 22px;
+}
+
+.loginname{
+    font-family: var(--notoFontFamily),var(--fallbackFontFamilies);
+    font-size: 15px;
+}
+
+.loginkaku{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    width: 230px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.loginkakug{
+    display: flex;
+    gap: 40px;
+    background-color: #fff;
+    width: 230px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top:33%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.loginkakum{
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    width: 230px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top:41%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+a{
+    color: #fff;
+}
+
+.passno{
+    text-align: center;
+    padding-top: 25%;
+}
+
+.kanri{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.gengo{
+    text-align: center;
+    padding-top: 3%;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    padding-left: 39%;
+}
